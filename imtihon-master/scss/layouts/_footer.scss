@@ -1,0 +1,71 @@
+footer{
+
+    .btn{
+        border-radius: 32px;
+       padding:  0px, 20px, 0px, 20px;
+       width: 125px;
+       height: 35px;
+       background-color: #E5E7EB;
+       color: black;
+       margin-top: 96px;
+       margin-left: 570px;
+    }
+    .btn:hover{
+        background-color: gold;
+    }
+    h3{
+        margin-top: 20px;
+        text-align: center;
+        color: #4B5563;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .contact{
+        margin-top: 30px;
+
+        .number{
+            display: flex;
+            gap: 0px 20px;
+            align-items: center;
+            margin-left: 400px;
+
+            h1{
+                font-size: 36px;
+            }
+          
+            
+            
+        }
+        p{
+            text-align: center;
+        }
+
+        .icons{
+            display: flex;
+            margin-left: 540px;
+            margin-top: 20px;
+        }
+
+        .foter{
+            display: flex;
+            height:68px;
+            padding: 24px 80px 24px 80px;
+            gap: 0px;
+            opacity: 0px;
+            background-color: #F9FAFB;
+            margin-top: 96px;
+           
+
+            .cicon{
+                margin-left: 300px;
+            }
+            
+            
+        }
+
+
+    }
+
+}

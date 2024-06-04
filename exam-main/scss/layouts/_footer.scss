@@ -1,0 +1,109 @@
+#footer_end {
+    padding-top: 96px;
+    background-color: #ffffff;
+
+    .footer_box {
+        .footer_btn {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 16px;
+
+            button {
+                padding: 4px 16px;
+                border-radius: 12px;
+                border: none;
+
+                a {
+                    color: #4b5563;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: #ff4500;
+                    }
+                }
+                .ooter_prg {
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #4b5563;
+                }
+            }
+        }
+
+        .flex_footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .last-prg {
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            color: #4b5563;
+            margin-top: 48px;
+        }
+
+        .logo-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .last-roject {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #footer_end {
+        background-color: #030712;
+
+        .footer_box {
+            background-color: #030712;
+            .footer_btn {
+                button {
+                    a {
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .right-box {
+                z-index: 999;
+            }
+
+            .footer_prg {
+                color: #ffffff;
+            }
+
+            .flex_footer {
+
+
+                img{
+                color: #ffffff;
+                }
+
+                h1 {
+                    color: #ffffff;
+                }
+                h2 {
+                    color: #ffffff;
+                }
+            }
+         
+
+            .last-roject {
+                background-color: #111827;
+            }
+        }
+
+        
+    }
+}

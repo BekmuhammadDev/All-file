@@ -1,0 +1,58 @@
+.about{
+    margin-top: 96px;
+    background-color: #F9FAFB;
+
+    .btn{
+        border-radius: 32px;
+       padding:  0px, 20px, 0px, 20px;
+       width: 125px;
+       height: 35px;
+       background-color: #E5E7EB;
+       color: black;
+       margin-top: 96px;
+       margin-left: 570px;
+    }
+    .btn:hover{
+        background-color: gold;
+    }
+    h3{
+        margin-top: 20px;
+        text-align: center;
+        color: #4B5563;
+        font-size: 20px;
+    }
+
+    .big_card{
+        display: flex;
+        margin-top: 48px;
+        gap: 48px;
+
+        .about_card{
+            width: 373px;
+            height: 428px;
+            border-radius: 12px;
+            background-color: #FFFFFF;
+            border: #00000084;
+            
+            .user{
+                margin: 48px 154px 24px;
+            }
+
+            .well{
+                text-align: center;
+            }
+
+            h2{
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+                margin-top: 10px;
+            }
+
+        }
+    }
+
+   
+}

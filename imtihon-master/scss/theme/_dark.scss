@@ -1,0 +1,42 @@
+.switch{
+    border: 1px solid rgb(255, 96, 96);
+    appearance: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 36px;
+    background: #00000051;
+  }
+  
+  .switch::after{
+    content:"";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color:rgb(205, 50, 91);
+    transition: all 0.5s ease;
+  }
+  
+  .switch:checked{
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .switch:checked:after{
+    content:"";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color:hsl(240, 100%, 50%);
+    transform: translate(35px);
+  }
+  
+  body:has(.switch:checked){
+    background: #000;
+    color: #fff;
+  }
+  
+  header:has(.switch:checked){
+    background: #000;
+    color: #fff;
+  }

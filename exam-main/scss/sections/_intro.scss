@@ -1,0 +1,115 @@
+#intro {
+    position: relative;
+    padding-bottom: 96px;
+    .intro_flex {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-top: 100px;
+
+        .left-box {
+            .left-box__title {
+                font-size: 60px;
+                line-height: 72px;
+                letter-spacing: -2%;
+            }
+
+            .left-box__title--prg {
+                font-size: 16px;
+                line-height: 24px;
+                color: #4b5563;
+            }
+            .into-flex-first {
+                display: flex;
+                gap: 8px;
+                margin-top: 48px;
+            }
+
+            .into-flex-second {
+                display: flex;
+                gap: 8px;
+                padding-top: 5px;
+                margin-bottom: 48px;
+            }
+        }
+
+        .right-box {
+            position: relative;
+            width: 400px;
+            height: 360px;
+            margin-top: 50px;
+
+            .shadow {
+                width: 280px;
+                height: 320px;
+                position: absolute;
+                z-index: -1;
+                top: 35px;
+                left: 35px;
+            }
+            img {
+                width: 280px;
+                height: 320px;
+                z-index: 999;
+
+                &:hover {
+                    margin-top: 24px;
+                    margin-left: 24px;
+                    transition: all 0.2s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .intro_flex {
+        display: flex;
+        width: auto;
+
+        .five {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .intro_flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .intro_flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-left: 80px;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    #intro {
+        background-color: #030712;
+
+        .intro_flex {
+            .left-box {
+                h1,
+                p {
+                    color: #fff;
+                }
+            }
+
+            .right-box {
+                z-index: 999;
+            }
+        }
+    }
+}
